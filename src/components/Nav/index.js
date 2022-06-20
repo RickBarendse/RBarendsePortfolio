@@ -6,7 +6,7 @@ function Nav() {
         <header className="flex-row px-1">
             <h2>
                 <a href="/">
-                    RBarendse Portfolio
+                    Rick Barendse Portfolio
                 </a>
             </h2>
             <nav>
