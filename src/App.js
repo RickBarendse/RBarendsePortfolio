@@ -4,6 +4,8 @@ import Header from './components/Header';
 import Portfolio from './components/Portfolio';
 import About from './components/About';
 import Contact from './components/Contact';
+import Resume from './components/Resume';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -15,20 +17,21 @@ function App() {
       case "about": return <About />;
       case "portfolio": return <Portfolio />;
       case "contact": return <Contact />;
-      //case "resume": <Resume />;
-      default: return null;
+      case "resume": return <Resume />;
+      default: return
     }
   };
   
   
   return (
-    <div>
-      <div className="App">
-        <Header currentPage={currentPage} setCurrentPage={setCurrentPage}></Header>
-            <main>
-              {renderPage()}
-            </main>
-        </div>
+    <div className="App">
+        <div>
+          <Header currentPage={currentPage} setCurrentPage={setCurrentPage}></Header>
+              <main>
+                {renderPage()}
+              </main>
+        </div> 
+      <Footer></Footer>  
     </div>
   );
 }

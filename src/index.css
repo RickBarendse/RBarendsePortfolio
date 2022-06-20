@@ -37,7 +37,6 @@ body {
   background: var(--secondary);
   color: var(--light);
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 h1,
@@ -153,7 +152,17 @@ input:focus {
 }
 
 li {
-  list-style: none;
+  list-style: circle;
+  list-style-position: var(--spacing-two);
+  text-align: left;
+}
+
+#resume {
+  text-align: left;
+}
+
+#resume h2 {
+  text-decoration: underline;
 }
 
 nav a:hover {
@@ -162,6 +171,7 @@ nav a:hover {
 
 nav  li {
   cursor: pointer;
+  list-style: none;
 }
 
 textarea {
@@ -298,4 +308,19 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+footer {
+  background: var(--tertiary);
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  cursor: pointer;
 }
