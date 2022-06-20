@@ -9,7 +9,7 @@ function Resume() {
 
             <div> 
                 <a href={require('../../assets/documents/RickBarendse_resume.pdf')} download>
-                    <h4 id="resume">Clikc Here to Download My Resume</h4>
+                    <h4 id="resume">Click Here to Download My Resume</h4>
                 </a>
             </div>
             <br></br>
