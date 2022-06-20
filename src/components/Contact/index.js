@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
-function ContactForm() {
+function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const [errorMessage, setErrorMessage] = useState('');
     const { name, email, message } = formState;
@@ -14,7 +14,7 @@ function ContactForm() {
     };
 
     function handleChange(e) {
-        if (e.targetlname === 'email') {
+        if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
 
             // isValid conditional statement
@@ -44,7 +44,7 @@ function ContactForm() {
                 <div>
                     <label htmlFor="email">Email address:</label>
                     <br></br>
-                    <input type="email" defaultValue={email} name="email" onBlue={handleChange} />
+                    <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
                 </div>
                 <div>
                     <label htmlFor="message">Message:</label>
@@ -62,4 +62,4 @@ function ContactForm() {
     );
 };
 
-export default ContactForm;
+export default Contact;

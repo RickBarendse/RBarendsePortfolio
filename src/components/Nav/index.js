@@ -1,31 +1,28 @@
 import React from 'react';
 
-function Nav() {
+function Nav(props) {
+    const {
+        currentPage,
+        setCurrentPage
+    } = props;
 
     return(
-        <header className="flex-row px-1">
-            <h2>
-                <a href="/">
-                    Rick Barendse Portfolio
-                </a>
-            </h2>
             <nav>
                 <ul className="flex-row">
-                    <li className="mx-2">
-                        <a href="#about">About Me</a>
+                    <li className={currentPage === "about" ? "mx-2 navActivt" : "mx-2"}>
+                        <span onClick={() => setCurrentPage("about")} data-testid="about">About Me</span>
                     </li>
-                    <li className="mx-2">
-                        <span>Contat Me</span>
+                    <li className={currentPage === "contact" ? "mx-2 navActivt" : "mx-2"}>
+                        <span onClick={() => setCurrentPage("contact")} data-testid="contact">Contat Me</span>
                     </li>
-                    <li className="mx-2">
-                        <span>Porfolio</span>
+                    <li className={currentPage === "portfolio" ? "mx-2 navActivt" : "mx-2"}>
+                        <span onClick={() => setCurrentPage("portfolio")} data-testid="portfolio">Porfolio</span>
                     </li>
-                    <li className="mx-2">
-                        <span>Resume</span>
+                    <li className={currentPage === "resume" ? "mx-2 navActivt" : "mx-2"}>
+                        <span onClick={() => setCurrentPage("resume")} data-testid="resume">Resume</span>
                     </li>
                 </ul>
             </nav>
-        </header>
     )
 }
 

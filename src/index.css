@@ -87,13 +87,14 @@ a {
   font-weight: bold;
 }
 
-a:hover {
+span:hover {
   text-decoration: underline;
 }
 
 header {
   background: var(--dark);
-  height: 200px;
+  height: 100px;
+  align-items: center;
 }
 
 header a {
@@ -130,7 +131,7 @@ span[role="img"] {
 }
 
 form {
-  width: 60%;
+  width: 100%;
 }
 
 input {
@@ -143,9 +144,7 @@ input {
 }
 
 #contact-form {
-  justify-content: left;
-  align-content: left;
-
+  justify-content: center;
 }
 
 input:focus {

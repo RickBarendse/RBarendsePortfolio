@@ -1,22 +1,34 @@
 //import logo from './logo.svg';
-import Nav from './components/Nav';
+import React, {useState } from 'react';
+import Header from './components/Header';
 import Portfolio from './components/Portfolio';
 import About from './components/About';
-import ContactForm from './components/Contact';
+import Contact from './components/Contact';
 import './App.css';
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('about');
+
+  // function to check which page is selected and then render it
+  const renderPage = () => {
+    switch(currentPage) {
+      case "about": return <About />;
+      case "portfolio": return <Portfolio />;
+      case "contact": return <Contact />;
+      //case "resume": <Resume />;
+      default: return null;
+    }
+  };
+  
+  
   return (
-    <div className="App">
-        <Nav>
-        </Nav>
-      <main>
-        <>
-          <Portfolio></Portfolio>
-          <About></About>
-        </>
-        <ContactForm></ContactForm>
-      </main>
+    <div>
+      <div className="App">
+        <Header currentPage={currentPage} setCurrentPage={setCurrentPage}></Header>
+            <main>
+              {renderPage()}
+            </main>
+        </div>
     </div>
   );
 }
