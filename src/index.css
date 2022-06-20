@@ -247,8 +247,11 @@ textarea {
 }
 
 .card {
-  width: 25%;
+  width: 100;
   text-align: center;
+  border:#474B3A;
+  border-width: 20px;
+  padding: 40px;
 }
 
 .img-thumbnail {

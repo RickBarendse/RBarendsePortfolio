@@ -1,31 +1,74 @@
 import React from 'react';
+import Card from '../Card';
+import ShanesListScreenshot from '../../assets/images/shanes_list.png';
+import CodeQuizScreenshot from '../../assets/images/code_quiz.png';
+import OregonScreenshot from '../../assets/images/oregon.png';
+import PasswordGeneratorScreenshot from '../../assets/images/oregon.png';
+import RunbuddyScreenshot from '../../assets/images/Runbuddy.png';
+import WorkdayScreenshot from '../../assets/images/workday_scheduler.jpg';
 
-
-
-function Portfolio() {
-    const projects = [
+const projects = [
         {
             name: "Shane's List",
-            description: "Shane's List is an online classified ad service where registered memebers can post items for sale or find items to purchase from other registered members. Shane's List simplified user interface and limited number of categories makes it easy to navigate and find what you're looking for. Shane's List is a classified ad service only and is not involved in the transaction between users other than providing a means of connecting. Users are advised to do their own due diligience when making a purchase from any member on Shane's List. To aid a purchaser on making an informed decision regarding a purchase, Shane's List provides a user comment function so buyers can leave comments regarding their experience with a seller.",
+            description: "Shane's List is an online classified ad service where registered memebers can post items for sale or find items to purchase from other registered members.",
+            image: ShanesListScreenshot,
             github: "https://github.com/RickBarendse/Shanes-List",
             app: "https://shanes-list.herokuapp.com/"
-        }
+        },
+        {
+            name: "Welcome to Oregon",
+            description: "",
+            image: OregonScreenshot,
+            github: "https://github.com/RickBarendse/welcome2oregon",
+            app: "https://adam-algatt.github.io/Project-1/"
+        },
+        {
+            name: "Run Buddy",
+            descritpion: "",
+            image: RunbuddyScreenshot,
+            github: "https://github.com/RickBarendse/run-buddy",
+            app: "https://rickbarendse.github.io/run-buddy/"
+        },
+        {
+            name: "Password Generator",
+            descritpion: "",
+            image: PasswordGeneratorScreenshot,
+            github: "https://github.com/RickBarendse/ChallengeThree_PasswordGenerator",
+            app: "https://rickbarendse.github.io/ChallengeThree_PasswordGenerator/"
+        },
+        {
+            name: "Workday Scheduler",
+            description: "",
+            image: WorkdayScreenshot,
+            github: "https://github.com/RickBarendse/ChallengeFive_WorkDayScheduler",
+            app: "https://rickbarendse.github.io/ChallengeFive_WorkDayScheduler/"
+        },
+        {
+            name: "Code Quiz",
+            description: "",
+            image: CodeQuizScreenshot,
+            github: "https://github.com/RickBarendse/ChallengeFour_CodeQuiz",
+            app: "https://rickbarendse.github.io/ChallengeFour_CodeQuiz/"
+        },
     ]
 
-    return (
+function Portfolio() {
+
+return (
         <section>
             <div>
                 <h1 className="page-header">My Portfolio</h1>
             </div>
-            <div>   
-                <ul className="flex-row mobille-row">
-                    <li>
-                      
-                    </li>
-                </ul>
+            <div className="container">
+                <div className="row">
+                    {projects.map(projectsArray => {
+                        return (projects.indexOf(projectsArray),
+                        <Card key={projectsArray.name.toString()} projectsArray={projectsArray} />
+                    )})}
+                    </div>  
             </div>
         </section>
-    )
+    );
 }
 
 export default Portfolio;
