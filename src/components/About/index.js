@@ -18,7 +18,8 @@ function About() {
             </p>
             <p>
             I am a skilled communicator and analytic thinker.  I've earned a Bachelor of Arts degree in both English and History; as well as Post-Baccalaurete
-            Certificate in Accoounting.  Additionally, 
+            Certificate in Accoounting.  Additionally, I've recently learned the skills required to be a full-stack web devloper.  This page demonstrates these 
+            newfound skills.
 
             </p>
         </section>

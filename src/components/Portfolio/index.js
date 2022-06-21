@@ -3,7 +3,7 @@ import Card from '../Card';
 import ShanesListScreenshot from '../../assets/images/shanes_list.png';
 import CodeQuizScreenshot from '../../assets/images/code_quiz.png';
 import OregonScreenshot from '../../assets/images/oregon.png';
-import PasswordGeneratorScreenshot from '../../assets/images/oregon.png';
+import PasswordGeneratorScreenshot from '../../assets/images/password_generator.png';
 import RunbuddyScreenshot from '../../assets/images/Runbuddy.png';
 import WorkdayScreenshot from '../../assets/images/workday_scheduler.jpg';
 
@@ -17,7 +17,7 @@ const projects = [
         },
         {
             name: "Welcome to Oregon",
-            description: "This application is designed with the traveler in mind even if you live here. We want the user to input a city of their choice and it will bring up the current 5 day forcast and a list of breweries that they can choose information about (since Oregon is known for beer). Also, a current ski report for Oregon ski areas and a surf report for major coastal destinations.",
+            description: "This application is designed with the traveler in mind--even if you live here. Input a city in Oregon of your choice and the application will bring up the current 5 day forcast and a list of breweries for that city (since Oregon is known for beer). Also, a current ski report for Oregon ski areas and a surf report for major coastal destinations.",
             image: OregonScreenshot,
             github: "https://github.com/RickBarendse/welcome2oregon",
             app: "https://adam-algatt.github.io/Project-1/"
@@ -58,6 +58,7 @@ return (
         <section>
             <div>
                 <h1 className="page-header">My Portfolio</h1>
+                <h4>Click on images to visit the application</h4>
             </div>
             <div className="container">
                 <div className="row">
