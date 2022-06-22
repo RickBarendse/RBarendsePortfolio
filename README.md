@@ -1,41 +1,51 @@
 ![License: GPL v3](https://img.shields.io/badge/License-NPM-yellow.svg)
+
+# Rick Barendse Portfolio
+
+## Description
+This is the personal portfolio for Rick Barendse.  The site provides a brief career biography for Rick, a page highlighting his web development projects, a link to download his a resume, and a contact page to send Rick a message.
+
+## Table of Contents
+* [Instatallation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contribute](#contribute)
+* [Tests](#tests)
+
+## Installation
+No installation required.
+
+## Usage
+The site can be accessed here:  http://RickBarendse.github.io/rbarendse_portfolio
+
+
+## License
+The application is covered by the following license:  NPM
   
-  # Rick Barendse Portfolio
- 
-  ## Description
-  This is the personal portfolio for Rick Barendse.  The site provides a brief career biography for Rick, a page highlighting his web development projects, a link to download his a resume, and a contact page to send Rick a message.
-
-  ## Table of Contents
-  * [Instatallation](#installation)
-  * [Usage](#usage)
-  * [License](#license)
-  * [Contribute](#contribute)
-  * [Tests](#tests)
+## Contribute
+Feel free to reach out to me via the contact page.
   
-  ## Installation
-  No installation required.
-
-  ## Usage
-  The site can be accessed here:
-
-  ## License
-  The application is covered by the following license:  NPM
-    
-  ## Contribute
-  Feel free to reach out to me via the contact page.
-    
-  ## Tests
-  None
-    
-  ## Questions
-  Please visit my GitHub Overview page at: https://github.com/RickBarendse
-  If you have any questions regardinmg this application please email me at [Rick.Barendse@Outlook.com](Rick.Barendse@Outlook.com)
+## Tests
+None
   
+## Questions
+Please visit my GitHub Overview page at: https://github.com/RickBarendse
+If you have any questions regardinmg this application please email me at [Rick.Barendse@Outlook.com](Rick.Barendse@Outlook.com)
+  
+## About Me - A Brief Bio
+![About Me](/src/assets/images/AboutMe.png)
+
+## Contact Me - Form to reach me
+![Contact Me](/src/assets/images/ContactMe.png)
+
+## Portfolio - A sampling of web development projects
+![Portfolio](/src/assets/images/Portfolio.png)
+
+## Resume - Skills list and resume download
+![Resume](/src/assets/images/Resume.png)
 
 
-
-
-
+____________________________________________________________________________________________________________
 
 # Getting Started with Create React App
 
