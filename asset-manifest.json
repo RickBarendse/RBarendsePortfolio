@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/rbarendse_portfolio/static/css/main.23ba003b.css",
+    "main.js": "/rbarendse_portfolio/static/js/main.6dc54ed7.js",
+    "static/js/787.69864ff0.chunk.js": "/rbarendse_portfolio/static/js/787.69864ff0.chunk.js",
+    "static/media/Runbuddy.png": "/rbarendse_portfolio/static/media/Runbuddy.7db6ac642a77240ee694.png",
+    "static/media/shanes_list.png": "/rbarendse_portfolio/static/media/shanes_list.c193bcd55ee8284858a1.png",
+    "static/media/oregon.png": "/rbarendse_portfolio/static/media/oregon.a7ac4fe829bfd214d1b7.png",
+    "static/media/RickBarendse_resume.pdf": "/rbarendse_portfolio/static/media/RickBarendse_resume.18b0e1c49e4cfc35f8de.pdf",
+    "static/media/workday_scheduler.jpg": "/rbarendse_portfolio/static/media/workday_scheduler.8927dabb6850971668e1.jpg",
+    "static/media/github.png": "/rbarendse_portfolio/static/media/github.94765f67cbf69165b64b.png",
+    "static/media/Paris.jpg": "/rbarendse_portfolio/static/media/Paris.87b13677718ae9b6ee9a.jpg",
+    "static/media/code_quiz.png": "/rbarendse_portfolio/static/media/code_quiz.736ddcfd3851515d7bde.png",
+    "static/media/linkedin.png": "/rbarendse_portfolio/static/media/linkedin.7a5eab93c7daf7d2ceeb.png",
+    "static/media/password_generator.png": "/rbarendse_portfolio/static/media/password_generator.c75170cdaca80cb0973e.png",
+    "static/media/stackoverflow.webp": "/rbarendse_portfolio/static/media/stackoverflow.8091dc28b09457457805.webp",
+    "index.html": "/rbarendse_portfolio/index.html",
+    "main.23ba003b.css.map": "/rbarendse_portfolio/static/css/main.23ba003b.css.map",
+    "main.6dc54ed7.js.map": "/rbarendse_portfolio/static/js/main.6dc54ed7.js.map",
+    "787.69864ff0.chunk.js.map": "/rbarendse_portfolio/static/js/787.69864ff0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23ba003b.css",
+    "static/js/main.6dc54ed7.js"
+  ]
+}
