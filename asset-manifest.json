@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/rbarendse_portfolio/static/css/main.23ba003b.css",
+    "main.css": "/rbarendse_portfolio/static/css/main.4cfccc3b.css",
     "main.js": "/rbarendse_portfolio/static/js/main.6dc54ed7.js",
     "static/js/787.69864ff0.chunk.js": "/rbarendse_portfolio/static/js/787.69864ff0.chunk.js",
     "static/media/Runbuddy.png": "/rbarendse_portfolio/static/media/Runbuddy.7db6ac642a77240ee694.png",
@@ -15,12 +15,12 @@
     "static/media/password_generator.png": "/rbarendse_portfolio/static/media/password_generator.c75170cdaca80cb0973e.png",
     "static/media/stackoverflow.webp": "/rbarendse_portfolio/static/media/stackoverflow.8091dc28b09457457805.webp",
     "index.html": "/rbarendse_portfolio/index.html",
-    "main.23ba003b.css.map": "/rbarendse_portfolio/static/css/main.23ba003b.css.map",
+    "main.4cfccc3b.css.map": "/rbarendse_portfolio/static/css/main.4cfccc3b.css.map",
     "main.6dc54ed7.js.map": "/rbarendse_portfolio/static/js/main.6dc54ed7.js.map",
     "787.69864ff0.chunk.js.map": "/rbarendse_portfolio/static/js/787.69864ff0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23ba003b.css",
+    "static/css/main.4cfccc3b.css",
     "static/js/main.6dc54ed7.js"
   ]
 }
