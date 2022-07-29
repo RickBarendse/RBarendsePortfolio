@@ -6,6 +6,7 @@ import OregonScreenshot from '../../assets/images/oregon.png';
 import PasswordGeneratorScreenshot from '../../assets/images/password_generator.png';
 import RunbuddyScreenshot from '../../assets/images/Runbuddy.png';
 import WorkdayScreenshot from '../../assets/images/workday_scheduler.jpg';
+import GrillerScreenshot from '../../assets/images/Griller.png';
 
 const projects = [
         {
@@ -21,6 +22,13 @@ const projects = [
             image: OregonScreenshot,
             github: "https://github.com/RickBarendse/welcome2oregon",
             app: "https://adam-algatt.github.io/Project-1/"
+        },
+        {
+            name: "Griller",
+            description: "A website for barbecue enthusiasts.  Find recipes.  Search for gear.  Leave feedback and read what others have to say.",
+            image: GrillerScreenshot,
+            github: "https://github.com/RickBarendse/Griller",
+            app: "https://griller.herokuapp.com/"
         },
         {
             name: "Run Buddy",
